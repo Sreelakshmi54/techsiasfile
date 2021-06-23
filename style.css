@@ -1,0 +1,142 @@
+.contact-header{
+    background: #0d1b2a;
+    padding-left: 60px;
+    padding-top: 0px;
+    margin-top: 6px;
+}
+.img{
+     height: 31px;
+     margin-left: 85px;
+     
+}
+.head{
+     color: white;
+     font-size: 3rem;
+}
+.contact-home-page{
+     background: #04151f;
+}
+.container-fluid-ab{
+     background: #04151f;  
+}
+.left{
+ width: 20%;
+ float: left;
+ height: 450px;
+ background: #04151f;
+}
+.middle{
+ width: 60%;
+ float: left;
+ left: 50%;
+ height: 450px;
+ background: #032436;
+
+}
+
+
+
+.form-parent{
+ position: relative;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 70%;
+ top: 50%;
+
+}
+
+.right{
+ width: 20%;
+ height: 450px;
+ float: left;
+ background: #04151f;
+}
+#mail{
+ width: 100%;
+}
+
+#msg{
+ width: 100%;
+
+}
+#msg2{
+ width: 100%;
+
+}
+
+
+.btn{
+ position: relative;
+ left: 88%;
+ top: 1rem;
+ background: none;
+ text-decoration: none;
+ border: none;
+ 
+}
+
+#btn-img{
+
+ position: absolute;
+ top: -0.7rem;
+ width: 5rem;
+}
+
+#btn-img:hover{
+ cursor: pointer;
+}
+
+
+
+#subject{
+ height: 150px;
+ margin-top: 13px;
+ margin-left: 70px;
+ width: 80%
+}
+#lname{
+ height: 20px;
+ margin-top: 15px;
+ margin-left: 70px;
+ width: 80%
+}
+.btns{
+ float: right;
+ margin-right: 86px;
+ margin-top: 10px;
+ width: 54px;
+ height: 24px;
+ background-color: #2553F6
+ 
+}
+.pic{
+ width: 44px;
+}
+
+.message1{
+ height: 200px;
+ border: 10px;
+}
+
+@media screen and (max-width:666px) {
+ 
+ .btn{
+     position: relative;
+     top: 1rem;
+     background: none;
+     text-decoration: none;
+     border: none;
+     transform: translate(-150%);
+ }
+
+
+ #btn-img{
+
+     position: relative;
+     top: -0.7rem;
+     width: 100%;
+     left: 50%;
+}
+
+
+
